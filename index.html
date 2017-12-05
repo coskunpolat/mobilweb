@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <title>Örnek Mobil Uygulama</title>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+    <div data-role="header" data-position="fixed" data-fullscreen="true">
+	<h1>mobil sözlük</h1>
+</div>
+        
+
+     <form>
+    <input id="filter-for-listview" data-type="search" placeholder="Aramak istediğiniz kelimeyi yazın">
+</form>
+<ul data-role="listview" data-inset="true" data-filter="true" data-input="#filter-for-listview">
+    <li><a href="http.html" data-rel="dialog" data-transition="flip">Http</a></li>
+    <li><a href="dns.html" data-rel="dialog" data-transition="flip">dns</a></li>
+    <li><a href="www.html" data-rel="dialog" data-transition="flip">www</a></li>
+    <li><a href="ftp.html" data-rel="dialog" data-transition="flip">ftp</a></li>
+</ul>
+     <div data-role="footer" data-position="fixed" data-fullscreen="true">
+	<h1>Coşkun POLAT - AFL</h1>
+</div>
+</body>
+    
+</html>
