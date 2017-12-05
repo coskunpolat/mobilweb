@@ -7,14 +7,14 @@
 
 <!-- versionCode is optional and Android only -->
 
-  <name>Meyve Sözlüğü</name>
+  <name>Mobil sözlük</name>
 
   <description>
-      İlkokul öğrencileri için oluşturduğumuz bu meyveli sözlük...
+      Coşkun POLAT tarfaından hazırlanan uygulama
   </description>
 
-  <author href="http://www.madran.net" email="orcunmadran@gmail.com">
-      Orçun Madran
+  <author href="https://www.facebook.com/coskunpolat02" email="coskunpolat02@gmail.com">
+      Coşkun POLAT
   </author>
     
   <icon src="icon.png" />
